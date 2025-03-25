@@ -1,6 +1,7 @@
 Java Spring Boot application used for managing users and their orders using REST API.
 
 Backend is implemented in Java using Spring Boot, it manages users, different permissions that they have, dishes and orders that they make. 
+Database is implemented in MySQL and mapping is done with Hibernate.
 Error handler is implemented for catching errors that may appear during order processing.
 Authentification is done through JWT and authentication is done through custom AuthGuard on frontend. 
 Also order processing logic is done with scheduling and using thread polling. 
